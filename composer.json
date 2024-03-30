@@ -8,6 +8,11 @@
         "potter/listener-provider-interface": "dev-main",
         "potter/stoppable-event-interface": "dev-main"
     },
+    "suggest": {
+        "potter/event": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
     "license": "MIT",
     "authors": [
         {
