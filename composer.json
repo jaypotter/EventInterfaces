@@ -5,6 +5,7 @@
     "require": {
         "php": "^8.3",
         "potter/emitter-interface": "dev-main",
+        "potter/event-interface": "dev-main",
         "potter/event-dispatcher-interface": "dev-main",
         "potter/listener-provider-interface": "dev-main",
         "potter/stoppable-event-interface": "dev-main"
