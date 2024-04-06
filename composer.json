@@ -1,14 +1,14 @@
 {
     "name": "potter/event-interfaces",
-    "description": "PHP Event Interfaces",
+    "description": "PHP Collection of Event Interfaces",
     "type": "metapackage",
     "require": {
         "php": "^8.3",
-        "potter/emitter-interface": "dev-main",
-        "potter/event-interface": "dev-main",
-        "potter/event-dispatcher-interface": "dev-main",
-        "potter/listener-provider-interface": "dev-main",
-        "potter/stoppable-event-interface": "dev-main"
+        "potter/emitter-interface": "v0.0.1-alpha@alpha",
+        "potter/event-interface": "v0.0.1-alpha@alpha",
+        "potter/event-dispatcher-interface": "v0.0.1-alpha@alpha",
+        "potter/listener-provider-interface": "v0.0.1-alpha@alpha",
+        "potter/stoppable-event-interface": "v0.0.1-alpha@alpha"
     },
     "suggest": {
         "potter/event": "dev-main",
@@ -22,5 +22,5 @@
             "email": "j@ypotter.ca"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "alpha"
 }
